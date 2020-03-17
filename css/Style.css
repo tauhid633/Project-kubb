@@ -102,7 +102,7 @@ img {
 .social-icon a {
     color: #f5f5f5;
     font-size: 12px;
-    padding-left: 15px;
+    padding-left: 18px;
     transition: all linear .4s;
     -webkit-transition: all linear .4s;
     -moz-transition: all linear .4s;
@@ -307,21 +307,17 @@ img {
 }
 
 .insta-inner-img {
+    display: flex;
+    justify-content: space-between;
     padding: 25px 0 40px;
 }
 
 .insta-inner-img .insta-img {
-    width: 24.16%;
-    float: left;
-    margin-right: 15px;
+    width: 24.2%;
 }
 
 .insta-inner-img .insta-img img {
     width: 100%;
-}
-
-.insta-inner-img .mar-right {
-    margin-right: 0;
 }
 
 .inst-page-cont {
