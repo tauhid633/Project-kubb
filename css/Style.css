@@ -1,0 +1,798 @@
+/*========================================
+            Common css part Start
+==========================================*/
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.clr {
+    clear: both;
+}
+
+.full_wrapper {
+    width: 100%;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+/*========================================
+            Common css part End
+==========================================*/
+
+/*========================================
+            Banner css part Start
+==========================================*/
+.banner-full {
+    background: url(../Images/Banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.menu-full {
+    background: rgba(0, 0, 0, 0.44);
+    padding: 33px 0;
+}
+
+.logo {
+    width: 170px;
+    float: left;
+}
+
+.main-menu {
+    width: 850px;
+    float: left;
+}
+
+.social-icon {
+    width: 150px;
+    float: left;
+}
+
+.main-menu ul {
+    float: right;
+}
+
+.main-menu ul li {
+    float: left;
+}
+
+.main-menu ul li a {
+    color: #f5f5f5;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    padding-left: 42px;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+}
+
+.main-menu ul li a:hover {
+    color: #28b8d8;
+}
+
+.main-menu ul:last-child {
+    padding-right: 22px;
+}
+
+.social-icon a {
+    color: #f5f5f5;
+    font-size: 12px;
+    padding-left: 18px;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+}
+
+.social-icon {
+    position: relative;
+}
+
+.social-icon .border-left::after {
+    position: absolute;
+    left: 0;
+    top: -5px;
+    content: "";
+    border: 1px solid #3a3840;
+    height: 30px;
+}
+
+.social-icon a:hover {
+    color: #28b8d8;
+}
+
+
+.banner-text-full {
+    padding: 244px 0 252px;
+}
+
+.banner-cont {
+    text-align: center;
+}
+
+.banner-cont h1 {
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+}
+
+.banner-cont h2 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 300;
+    font-family: 'Roboto Slab', serif;
+    text-transform: uppercase;
+}
+
+.banner-cont p {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Roboto Slab', serif;
+}
+
+/*========================================
+            Banner css part End
+==========================================*/
+
+/*========================================
+            Service css part Start
+==========================================*/
+.service-full {
+    padding: 80px 0;
+}
+
+.service-head {
+    text-align: center;
+}
+
+.service-head h3 {
+    color: #444444;
+    font-size: 30px;
+    font-weight: 300;
+    font-family: 'Roboto Slab', serif;
+}
+
+.service-head p {
+    color: #666666;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 22px;
+    padding-bottom: 68px;
+}
+
+.service-inner {
+    text-align: center;
+}
+
+.service-inner h3 {
+    color: #444444;
+    font-size: 18px;
+    font-family: 700;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 25px;
+}
+
+
+.service-inner .service-img {
+    padding: 16px 16px 24px;
+    border: 1px solid #e3e3e3;
+    width: 31.6%;
+    margin-right: 30px;
+    float: left;
+}
+
+.service-inner .service-img img {
+    width: 100%;
+}
+
+.service-inner .service-img h4 {
+    color: #444444;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    padding: 20px 0 6px;
+}
+
+.service-inner .service-img p {
+    color: #666666;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    line-height: 22px;
+}
+
+.service-inner .margin-right {
+    margin-right: 0;
+}
+
+/*========================================
+            Service css part End
+==========================================*/
+
+
+/*========================================
+        Insta-shot css part Start
+==========================================*/
+.insta-full {
+    padding: 75px 0;
+    background: #2c2c2c;
+}
+
+.insta-cont {
+    text-align: center;
+}
+
+.insta-cont h3 {
+    color: #d5d5d5;
+    font-size: 18px;
+    font-family: 700;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.insta-cont h3::after {
+    position: absolute;
+    left: 365px;
+    top: 8px;
+    content: "";
+    width: 100px;
+    height: 1px;
+    background: #535353;
+}
+
+.insta-cont h3::before {
+    position: absolute;
+    left: 365px;
+    bottom: 10px;
+    content: "";
+    width: 100px;
+    height: 1px;
+    background: #535353;
+}
+
+.insta-head::after {
+    position: absolute;
+    right: 365px;
+    top: 8px;
+    content: "";
+    width: 100px;
+    height: 1px;
+    background: #535353;
+}
+
+.insta-head::before {
+    position: absolute;
+    right: 365px;
+    bottom: 10px;
+    content: "";
+    width: 100px;
+    height: 1px;
+    background: #535353;
+}
+
+.insta-head {
+    position: relative;
+}
+
+.insta-inner-img {
+    padding: 25px 0 40px;
+}
+
+.insta-inner-img .insta-img {
+    width: 24.16%;
+    float: left;
+    margin-right: 15px;
+}
+
+.insta-inner-img .insta-img img {
+    width: 100%;
+}
+
+.insta-inner-img .mar-right {
+    margin-right: 0;
+}
+
+.inst-page-cont {
+    text-align: center;
+}
+
+.inst-page-cont a {
+    color: #a6a6a6;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    line-height: 22px;
+    padding: 18px 20px;
+    border: 1px solid #797979;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+}
+
+
+.inst-page-cont a i {
+    padding-right: 7px;
+}
+
+.inst-page-cont a:hover {
+    color: #28b8d8;
+}
+
+/*========================================
+            Insta-shot css part End
+==========================================*/
+
+
+/*========================================
+            Journal css part Start
+==========================================*/
+.journal-full {
+    padding: 80px 0 84px;
+}
+
+.journal-head {
+    text-align: center;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.journal-head::after {
+    position: absolute;
+    left: 395px;
+    top: 10px;
+    content: "";
+    width: 100px;
+    height: 1px;
+    background: #d9d9d9;
+
+}
+
+.journal-head::before {
+    position: absolute;
+    left: 395px;
+    bottom: 13px;
+    content: "";
+    width: 100px;
+    height: 1px;
+    background: #d9d9d9;
+}
+
+.journal-head h3 {
+    color: #444444;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+}
+
+.journal-head h3::after {
+    position: absolute;
+    right: 395px;
+    top: 10px;
+    content: "";
+    width: 100px;
+    height: 1px;
+    background: #d9d9d9;
+}
+
+.journal-head h3::before {
+    position: absolute;
+    right: 395px;
+    bottom: 13px;
+    content: "";
+    width: 100px;
+    height: 1px;
+    background: #d9d9d9;
+}
+
+.journal-post {
+    text-align: center;
+    width: 31.6%;
+    float: left;
+    padding: 25px 0 0;
+    border: 1px solid #e3e3e3;
+    margin-left: 30px;
+}
+
+.mar-left {
+    margin-left: 0;
+}
+
+.journal-post img {
+    width: 100%;
+    padding: 18px 0;
+}
+
+.journal-post h4 {
+    color: #444444;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    padding-bottom: 7px;
+}
+
+.journal-post span {
+    color: #999999;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+.journal-post-text {
+    padding: 0 16px;
+}
+
+.journal-post-text p {
+    color: #666666;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    line-height: 22px;
+    text-align: left;
+    padding-bottom: 24px
+}
+
+.journal-post-text a {
+    color: #999999;
+    font-size: 11px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    text-align: left;
+    display: inline-block;
+    margin-right: 185px;
+    border-bottom: 1px solid #28b8d8;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+}
+
+.journal-post-text a:hover {
+    color: #28b8d8;
+}
+
+.journal-post-text i {
+    color: #999999;
+    font-size: 11px;
+    cursor: pointer;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+}
+
+.journal-post-text i p {
+    display: inline-block;
+    color: #999999;
+    font-size: 11px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+.journal-post-text i:hover {
+    color: #fd1919;
+}
+
+/*========================================
+            Journal css part End
+==========================================*/
+
+/*========================================
+            About css part Start
+==========================================*/
+.about-full {
+    padding-bottom: 80px;
+}
+
+.about-part {
+    width: 48.4%;
+    float: left;
+    margin-right: 37px;
+}
+
+.about-head {
+    text-align: left;
+}
+
+.about-head h3 {
+    color: #444444;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 25px;
+    position: relative;
+}
+
+.about-head h3::after {
+    position: absolute;
+    top: 8px;
+    left: 160px;
+    content: "";
+    width: 100px;
+    height: 1px;
+    background: #d9d9d9;
+}
+
+.about-head h3::before {
+    position: absolute;
+    top: 10px;
+    left: 160px;
+    content: "";
+    width: 100px;
+    height: 1px;
+    background: #d9d9d9;
+}
+
+.about-text {
+    width: 60%;
+    float: left;
+    text-align: left;
+    margin-left: 27px;
+}
+
+.about-img {
+    width: 35%;
+    float: left;
+}
+
+.about-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-img img {
+    width: 100%;
+}
+
+.about-text p {
+    color: #666666;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Roboto Slab', serif;
+    line-height: 28px;
+    margin-top: -10px;
+}
+
+.about-text p span {
+    padding-top: 14px;
+    display: block;
+    color: #666666;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    line-height: 24px;
+}
+
+.service-part {
+    width: 48.4%;
+    float: left;
+}
+
+.service-part-head {
+    text-align: left;
+}
+
+.service-part-head h3 {
+    color: #444444;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 25px;
+    position: relative;
+}
+
+.service-part-head h3::after {
+    position: absolute;
+    top: 8px;
+    left: 115px;
+    content: "";
+    width: 100px;
+    height: 1px;
+    background: #d9d9d9;
+}
+
+.service-part-head h3::before {
+    position: absolute;
+    top: 10px;
+    left: 115px;
+    content: "";
+    width: 100px;
+    height: 1px;
+    background: #d9d9d9;
+}
+
+.service-text {
+    text-align: left;
+}
+
+.service-text .text-left {
+    margin-left: 64px;
+}
+
+.service-text .icon img {
+    margin-top: 5px;
+}
+
+.service-text .icon {
+    float: left;
+}
+
+.text-left h4 {
+    color: #444444;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    padding-bottom: 12px;
+}
+
+.service-text .text-left p {
+    color: #666666;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    line-height: 22px;
+}
+
+.services {
+    margin-bottom: 16px;
+}
+
+.mar-botto {
+    margin-bottom: 0;
+}
+
+
+/*========================================
+            About css part End
+==========================================*/
+
+/*========================================
+            Footer css part Start
+==========================================*/
+.footer-full {
+    padding: 68px 0;
+    background: #373737;
+}
+
+.footer-part {
+    text-align: left;
+    width: 24%;
+    margin-left: 48px;
+    float: left;
+}
+
+.footer-mar {
+    margin-left: 0;
+}
+
+.footer-part h5 {
+    color: #f0f0f0;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 14px;
+}
+
+.footer-part p {
+    color: #cacaca;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    line-height: 24px;
+    padding-bottom: 24px;
+}
+
+
+.footer-part ul {
+    float: left;
+}
+
+.footer-part ul li span {
+    display: block;
+    padding-left: 16px;
+    padding-top: 6px;
+}
+
+.footer-part ul li {
+    margin-bottom: 6px;
+    color: #cacaca;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer-part ul li img {
+    padding-right: 6px;
+}
+
+.footer-part ul li .mar-right {
+    margin-right: -2px;
+}
+
+
+.footer-part span {
+    display: block;
+    padding-top: 23px;
+}
+
+.twitter {
+    width: 20%;
+}
+
+.popular-posts {
+    width: 20%;
+}
+
+.popular-posts span {
+    margin-top: -20px;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #929292;
+}
+
+.about-us {
+    width: 23%;
+}
+
+.about-us p {
+    padding-right: 25px;
+}
+
+.footer-copy {
+    height: 90px;
+    background: #333333;
+}
+
+.footer-copy-text {
+    text-align: left;
+}
+
+.footer-copy-text p {
+    color: #cacaca;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    line-height: 90px;
+}
+
+
+/*========================================
+            Footer css part End
+==========================================*/
